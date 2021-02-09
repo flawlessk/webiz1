@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* THIS IS NAVIGATION */
+
+.navbar-li {
+    display: inline-block;
+}
+.navbar-li a{
+    text-decoration: none;
+    padding-right: 50px;
+    font-style: italic;
+    font-size: 25px;
+}
+.navbar-ul {
+    display: inline-block;
+}
+.navbar img {
+    width: 250px;
+    margin-right: 300px;
+}
+/* THIS IS CONTANT */
+
+.main-content {
+    margin: 100px 0 200px 0;
+}
+.content-text {
+    width: 300px;
+    display: inline-block;
+}
+.content-text h1 {
+    padding-left: 60px;
+    font-size: 22px;
+    color: rgb(255, 0, 149);
+}
+.content-text p {
+    padding-left: 20px;
+    color: rgb(255, 81, 0);
+}
+.content-img {
+    display: inline-block;
+}
+.content-img img{
+    width: 300px;
+}
+/* THIS IS FOOTER */
+
+.footer-content {
+    background-image: url("../pictures/footer.png");
+    margin-top: 60px;
+}
+.footer-content img{
+    height: 40px;
+    padding-left: 100px;
+}
+/* Iframe  */
+.content-video {
+    margin-top: 30px;
+}
+.imap {
+    margin: 30px 0 0 10px;
+}
+/* FORM & GET IN TOUCH */
+.contact-form {
+    margin-top: 30px;
+}
+.form-label {
+    margin-left: 10px;
+}
+.gitlabel {
+    margin: 30px 0 0 10px;
+}
+#git-textarea {
+    width: 500px;
+}
+#form-button {
+    margin-left: 10px;
+}
+form input {
+    margin-right: 25px;
+}
